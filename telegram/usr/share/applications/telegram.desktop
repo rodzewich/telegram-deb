@@ -1,11 +1,13 @@
 [Desktop Entry]
-Name=Telegram
-Comment=Text messenger
-Exec=/usr/share/telegram/telegram
+Version=1.0
+Name=Telegram Desktop
+Comment=Official desktop application for the Telegram messaging service
+TryExec=/home/rodzewich/projects/telegram-deb/dist/usr/share/telegram/telegram
+Exec=/home/rodzewich/projects/telegram-deb/dist/usr/share/telegram/telegram -- %u
+Icon=telegram
 Terminal=false
+StartupWMClass=TelegramDesktop
 Type=Application
-StartupNotify=true
-StartupWMClass=Telegram
-Encoding=UTF-8
-Categories=Network;Application;
-X-KDE-Protocols=telegram
+Categories=Network;InstantMessaging;Qt;
+MimeType=x-scheme-handler/tg;
+X-Desktop-File-Install-Version=0.23
