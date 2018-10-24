@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Telegram
+Comment=Text messenger
+Exec=/usr/share/telegram/telegram
+Terminal=false
+Type=Application
+StartupNotify=true
+StartupWMClass=Telegram
+Encoding=UTF-8
+Categories=Network;Application;
+X-KDE-Protocols=telegram

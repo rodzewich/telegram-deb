@@ -1,0 +1,5 @@
+Package: telegram
+Version: 1.0
+Section: net
+Architecture: amd64
+Description: Text messenger
